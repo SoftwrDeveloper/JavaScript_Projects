@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <title>JavaScript While Loop Application</title>
+    </head>
+    <body>
+        <h3>JavaScript While Loop Application</h3>
+        <script language="javascript" type="text/javascript">
+            var level = 0;
+            document.write("<b>Various Levels...</b><br /><br />");
+            while (level < 5) {
+                document.write("Current level: " + level + "<br />");
+                level++;
+            }
+            document.write("END!");
+        </script>
+    </body>
+    </html>
