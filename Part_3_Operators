@@ -1,0 +1,75 @@
+
+1. Arithmetic Operators:
+
+ <script language="javascript" type="text/javascript">
+            var m = 120;
+            var n = 35.5;
+            var total = m + n;
+            var linebreak = "<br />"
+            document.write("The total (m + n) = " + total);
+            document.write(linebreak);
+            var total = m - n;   
+            document.write("The total (m - n) = " + total);
+            document.write(linebreak);
+            var total = m / n;   
+            document.write("The total (m / n) = " + total);
+            document.write(linebreak);
+            var total = m * n;   
+            document.write("The total (m * n) = " + total);
+        </script>
+
+2. Comparison Operators:
+
+ <script language="javascript" type="text/javascript">
+            var m = 120;
+            var n = 35.5;
+            var linebreak = "<br />"
+            document.write("(m == n) => ");
+            answer = (m == n);
+            document.write(answer);
+            document.write(linebreak);
+            document.write("(m != n) => ");
+            answer = (m != n);
+            document.write(answer);
+        </script>
+
+3. Logical Operators:
+
+ <script language="javascript" type="text/javascript">
+            var m = true;
+            var n = false;
+            var linebreak = "<br />"
+          
+            document.write("(m && n) => ");
+            answer = (m && n);
+            document.write(answer);
+            document.write(linebreak);
+            document.write("(m || n) => ");
+            answer = (m || n);
+            document.write(answer);
+        </script>
+
+Replace The Operators in the below Web Page:
+
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <title>JavaScript Operators Application</title>
+    </head>
+    <body>
+        <h3>JavaScript Operators Application</h3>
+        <script language="javascript" type="text/javascript">
+            var m = true;
+            var n = false;
+            var linebreak = "<br />"
+            document.write("(m && n) => ");
+            answer = (m && n);
+            document.write(answer);
+            document.write(linebreak);
+            document.write("(m || n) => ");
+            answer = (m || n);
+            document.write(answer);
+        </script>
+    </body>
+    </html>
