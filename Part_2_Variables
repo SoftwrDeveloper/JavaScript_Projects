@@ -1,0 +1,45 @@
+for Strings variables:
+
+ <script language="javascript" type="text/javascript">
+            var subjectOne = " JavaScript, ";
+            var subjectTwo = " HTML, ";
+            var subjectThree = " CSS";
+            var subjects = subjectOne + subjectTwo + subjectThree;
+            document.write("The subjects: " + subjects);
+        </script>
+
+for Numbers variables:
+
+ <p id="total"></p>
+        <script language="javascript" type="text/javascript">
+            var firstNum = 34.50;
+            var secondNum = 120;
+            var total = firstNum + secondNum;
+            document.getElementById("total").innerHTML = total;
+        </script>
+
+ <script language="javascript" type="text/javascript">
+            var firstNum = 34.50;
+            var secondNum = 120;
+            var total = firstNum + secondNum;
+            document.write("The total: " + total);
+        </script>
+
+Replace in the Web page below:
+
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <title>JavaScript Variables Application</title>
+    </head>
+    <body>
+        <h3>JavaScript Variables Application</h3>
+        <script language="javascript" type="text/javascript">
+            var firstNum = 34.50;
+            var secondNum = 120;
+            var total = firstNum + secondNum;
+            document.write("The total: " + total);
+        </script>
+    </body>
+    </html>
