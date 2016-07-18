@@ -1,0 +1,68 @@
+
+1. if statement syntax:
+
+if (expression) {
+ to be executed Statement (if that expression is true) ;
+}
+ <script language="javascript" type="text/javascript">
+            var subject = 75;
+            if (subject > 80) {
+                document.write("<b>Got the pass mark!</b>");}
+ </script>
+
+2. if...else statement syntax:
+
+if (expression) {
+ to be executed Statement (if that expression is true);
+} else
+ to be executed Statement (if that expression is false);
+
+     <script language="javascript" type="text/javascript">
+            var subject = 75;
+            if (subject > 80) {
+                document.write("<b>Got the pass mark!</b>");
+            } else {
+                document.write("<b>Didn't get the pass mark</b>"); }
+          </script>
+
+3. if..else if...statement
+
+if (expression 1) {
+ to be executed Statement (if that expression 1 is true);
+} else if (expression 2) 
+ to be executed Statement (if that expression 2 is true);
+} else {
+ to be executed Statement (if that expression if none is true);}
+
+     <script language="javascript" type="text/javascript">
+            var subject = 75;
+            if (subject > 80) {
+                document.write("<b>Got the pass mark!</b>");
+            } else if (subject == 75) {
+                document.write("<b>The score was 75</b>");
+            } else {
+                document.write("<b>Didn't get the pass mark</b>");}
+             </script>
+
+Replace Them Below:
+
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <title>JavaScript if/else Application</title>
+    </head>
+    <body>
+        <h3>JavaScript if/else Application</h3>
+        <script language="javascript" type="text/javascript">
+            var subject = 75;
+            if (subject > 80) {
+                document.write("<b></Got the pass mark!b>");
+            } else if (subject == 76) {
+                document.write("<b>The score is 75!</b>");
+            } else {
+                document.write("<b>Didn't get pass mark!</b>");
+            }
+        </script>
+    </body>
+    </html>
