@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <title>JavaScript Switch Statement Application</title>
+    </head>
+    <body>
+        <h3>JavaScript Switch Statement Application</h3>
+        <script language="javascript" type="text/javascript"> 
+           var team = 5;
+            document.write("<b>Premiership Champion</b><br /><br />")
+            switch(team) {
+                case 1: document.write("Leicester Team");
+                    break;
+                case 2: document.write("Arsenal Team");
+                    break;
+                case 3: document.write("Tottenham Team");
+                    break;
+                case 4: document.write("Chelsea Team");
+                    break;
+                case 5: document.write("Everton Team");
+                    break;
+                default: document.write("None of the Teams above!")    
+            }
+            
+        </script>
+    </body>
+    </html>
