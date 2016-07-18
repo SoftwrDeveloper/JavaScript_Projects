@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <title>JavaScript Example Application</title>
+        <script language="javascript" type="text/javascript">
+            function sayWelcome() {
+                alert("Welcome to Software Developer Tube!")
+            }
+        </script>
+    </head>
+    <body>
+        <h3>JavaScript Example Application</h3>
+        Click the Button below!<br /><br />
+        <input type="button" onclick="sayWelcome()" value="Welcome Viewers" />
+    </body>
+    </html>
