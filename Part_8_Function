@@ -1,0 +1,52 @@
+
+1. The Function Exercise Without Parameters: 
+
+<!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+        <title>JavaScript Function Application</title>
+        <script language="javascript" type="text/javascript">
+            function heyYouTubers() {                           // function without parameter
+                document.write("Hey YouTubers!");
+            }
+        </script>
+    </head>
+    <body>
+        <h3>JavaScript Function Application</h3>
+        <form><input type="button" onclick="heyYouTubers()" value="Greet Viewers"></form>
+    </body>
+</html>
+
+2. The Function Exercise With Parameters:
+
+        <script language="javascript" type="text/javascript">
+            function heyYouTubers(subject, score) {
+                document.write("The score for " + subject + " is " + score + ", in the last exam.");
+            }
+        </script>
+    </head>
+    <body>
+        <h3>JavaScript Function Application</h3>
+        <form><input type="button" onclick="heyYouTubers('JavaScript', 74)" value="Subject score"></form>
+    </body>
+
+3. The Function Exercise With a Return Function:
+
+        <script language="javascript" type="text/javascript">
+            function fullNames(first, last) {
+               var names;
+                names = first + " " + last;
+                return names;
+            }
+            function returnNames() {
+                var answer;
+                answer = fullNames('John', 'Juliet');
+                document.write("Full Names: " + answer);
+            }
+        </script>
+
+    <body>
+        <h3>JavaScript Function Application</h3>
+        <form><input type="button" onclick="returnNames()" value="Give Names"></form>
+    </body>
