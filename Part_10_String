@@ -1,0 +1,22 @@
+
+<script language="javascript" type="text/javascript">
+            var myString = "Hey YouTubers, welcome to the tutorial!";
+            document.write("My String: " + myString);
+        </script>
+
+Replace In The below Web Page:
+
+<!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+        <title>JavaScript String Application</title>
+    </head>
+    <body>
+        <h3>JavaScript String Application</h3>
+        <script language="javascript" type="text/javascript">
+            var myString =  new String("Hey YouTubers, welcome to the tutorial!");
+            document.write("My String: " + myString);
+        </script>
+    </body>
+</html>
