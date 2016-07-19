@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+        <title>JavaScript For Loop Application</title>
+    </head>
+    <body>
+        <h3>JavaScript For Loop Application</h3>
+        <script language="javascript" type="text/javascript">
+            var level;
+            document.write("<b>Loop Starts...</b><br /><br />");
+            for (level = 0; level < 5; level++) {
+                document.write("Current level: " + level + "<br />");
+            }
+            document.write("END!");
+        </script>
+    </body>
+</html>
