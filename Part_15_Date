@@ -1,0 +1,33 @@
+
+Example One using Constructor:
+
+<!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+        <title>JavaScript Date Application</title>
+    </head>
+    <body>
+        <h3>JavaScript Date Application</h3>
+        <script language="javascript" type="text/javascript">
+            var myDate = new Date();
+            document.write("Current Date: " + myDate + "<br>");
+            document.write("Date Constructor: " + myDate.constructor);
+        </script>
+    </body>
+</html>
+
+Examples using Methods:
+
+        <script language="javascript" type="text/javascript">
+            var myDate = new Date();
+            document.write("The Date: " + myDate + "<br>");
+            document.write("The Minutes: " + myDate.getUTCMinutes() + "<br>");
+            document.write("The Date: " + myDate.getUTCDate());
+        </script>
+
+        <script language="javascript" type="text/javascript">
+            var myDate = new Date("June 09, 2016 08:58");
+            document.write("The Full Year: " + myDate.getFullYear() + "<br>");
+            document.write("The Hours: " + myDate.getHours());
+        </script>
