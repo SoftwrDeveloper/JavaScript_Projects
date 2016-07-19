@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+        <title>JavaScript Arrays Application</title>
+    </head>
+    <body>
+        <h3>JavaScript Arrays Application</h3>
+       <script language="javascript" type="text/javascript">
+        var myArr = new Array(1, 2, 3, 4);
+        document.write("Array Constructor: " + myArr.constructor + "<br>");
+        document.write("Array Length: " + myArr.length + "<br>")   
+        </script>
+    </body>
+</html>
+
+Using concat() to combine two arrays:
+
+        <script language="javascript" type="text/javascript">
+        var myArr1 = new Array(1, 2, 3, 4);
+        var myArr2 = new Array("p", "q", "r", "s");
+        document.write("1st Array: " + myArr1 + "<br>");
+        document.write("2nd Array: " + myArr2 + "<br>" );  
+        var myArr = myArr1.concat(myArr2);   
+        document.write("Combine Arrays: " + myArr);
+        </script>
+
+An Example of using Prototype:
+
+<!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+        <title>JavaScript Arrays Application</title>
+        <script language="javascript" type="text/javascript">
+            function language(student, subject) {
+                this.student = student;
+                this.subject = subject;
+            }
+        </script>
+    </head>
+    <body>
+        <h3>JavaScript Arrays Application</h3>
+        <script language="javascript" type="text/javascript">
+            var myVar = new language("Juliet", "Javascript");
+            language.prototype.percentage = null;
+            myVar.percentage = 70;
+            document.write("The Student: " + myVar.student + "<br>");
+            document.write("The Subject: " + myVar.subject + "<br>");
+            document.write("The Percentage: " + myVar.percentage);
+        </script>
+    </body>
+</html>
