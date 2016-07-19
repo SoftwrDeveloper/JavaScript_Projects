@@ -1,0 +1,41 @@
+
+1. Constructor creates and initializes an object:
+
+         <!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+        <title>JavaScript Objects Application</title>
+        <script language="javascript" type="text/javascript">
+            var subject = new Object();
+            subject.student = "Hosea";
+            subject.language = "HTML";
+            subject.score = "70%";
+        </script>
+    </head>
+    <body>
+        <h3>JavaScript Objects Application</h3>
+        <script language="javascript" type="text/javascript">
+        document.write("Student: " + subject.student + "<br>");
+        document.write("Language: " + subject.language + "<br>");
+        document.write("Score: " + subject.score + "<br>");
+        </script>
+    </body>
+</html>
+
+2. Create an object using the constructor and then assign property:
+
+         <script language="javascript" type="text/javascript">
+            function subject(student, language, score) {
+                this.student = student;
+                this.language = language;
+                this.score = score;
+            }
+        </script>
+
+        <script language="javascript" type="text/javascript">
+            var details =  new subject("Hosea", "HTML", "70%");
+            document.write("Student: " + details.student + "<br>");
+            document.write("Language: " + details.language + "<br>");
+            document.write("Score: " + details.score);
+        </script>
