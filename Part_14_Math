@@ -1,0 +1,51 @@
+
+Example One: Some Math Properties:
+
+<!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+        <title>JavaScript Math Application</title>
+    </head>
+    <body>
+        <h3>JavaScript Math Application</h3>
+        <script language="javascript" type="text/javascript">
+          var myMath = Math.E
+          document.write("The E: " + myMath + "<br>");
+          var myMath = Math.LN2;
+          document.write("The LN2: " + myMath + "<br>");
+          var myMath = Math.LN10;
+          document.write("The LN10: " + myMath + "<br>");
+          var myMath = Math.LOG2E;
+          document.write("The LOG2E: " + myMath + "<br>");
+          var myMath = Math.PI;
+          document.write("The PI: " + myMath + "<br>"); 
+          var myMath = Math.SQRT2;
+          document.write("The SQRT2: " + myMath);  
+        </script>
+    </body>
+</html>
+
+Example Two: abs() method:
+
+         <script language="javascript" type="text/javascript">
+          var myVar = Math.abs(-4);
+          var myVar = Math.abs(null);
+          var myVar = Math.abs("hello");
+          document.write("The abs Method: " + myVar);
+        </script>
+
+Example Three: log() Method:
+
+         <script language="javascript" type="text/javascript">
+          var myVar = Math.log(20);
+          document.write("The log Method: " + myVar);
+        </script>
+
+Example Four: sqrt() Method:
+
+         <script language="javascript" type="text/javascript">
+          var myVar = Math.sqrt(0.8);
+          document.write("The Square Root Method: " + myVar);
+        </script>
+
